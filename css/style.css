@@ -1,0 +1,205 @@
+* {
+padding:0;
+margin:0;
+box-sizing:border-box
+}
+body{
+	font-size:16px;
+	font-family: 'Raleway', sans-serif;
+}
+section.taxi-sec {
+    margin: 0 3rem;
+}
+.taxi-container {
+    width: 90%;
+    margin: 0 auto;
+}
+.taxi-title {
+    margin: 10px 0;
+    text-align: center;
+}
+.taxi-title p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffc02c;
+}
+.taxi-title h2 {
+    font-size: 2rem;
+    word-spacing: 3px;
+    margin: 10px;
+}
+
+.taxi-types {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 2rem 0;
+}
+p.active{
+    background-color:#ffc02c ;
+}
+.taxi-types p {
+    color: #fff;
+    background: #000;
+    padding: 5px 20px;
+    border-radius: 22px;
+    font-size: 13px;
+}
+p.active{
+    background-color:#ffc02c ;
+}
+.taxi-row {
+    gap: 2%;
+    display: flex;
+}
+.col-taxi {
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 4px #f3eeee;
+    padding: 12px;
+    width: 33.3%;
+}
+.pic {
+    width: 90%;
+}
+
+img {
+    width: 100%;
+}
+p.model {
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 18px;
+    color: #222;
+}
+p.rate {
+    font-size: 14px;
+    color: #ffc02c;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.data-main {
+    border-radius: 14px;
+    color: #fff;
+    padding: 20px;
+    background: #221f1f;
+}
+.taxi-data {
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+}
+.door {
+    padding: 9px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.door p i {
+    padding: 5px;
+    background: #ffc02c;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 59px;
+}
+.door p {
+    font-size: 15px;
+    color: #fff;
+}
+
+.book-taxi {
+    text-align: center;
+    margin: 28px 0;
+}
+.book-taxi a {
+    padding: 11px 70px;
+    background: #ffc02c;
+    border-radius: 23px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.logo {
+    top: -31px;
+    position: absolute;
+    width: 50;
+    width: 17%;
+    background: #ffc02c;
+    padding: 6px;
+    border-radius: 38px;
+    left: 38%;
+}
+.progress {
+    margin-top: 19px;
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    border: 2px solid #ffc02c;
+    border-radius: 14px;
+    background: #fff;
+    /* text-align: center; */
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.bar {
+    margin-left: 34px;
+    height: 6px;
+    width: 20px;
+    background: #ffc02c;
+    position: absolute;
+    border-radius: 2px;
+}
+@media (min-width:320px) and (max-width:767px){
+	section.taxi-sec {
+        margin: 0rem;
+    }
+    .taxi-container {
+        width: 100%;
+     
+    }
+    .taxi-types {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 6%;
+        margin: 2rem 0;
+    }
+    .taxi-types p {
+        margin: 9px 0;
+        
+    }
+    .taxi-row {
+        flex-direction: column;
+        
+    }
+    .col-taxi {
+    
+        width: 100%;
+    }
+    .col-taxi {
+        margin: 1.2rem 0;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .book-taxi a {
+        padding: 9px 50px;
+       
+    }
+}
+
+@media (min-width:766px) and (max-width:1020px){
+	.taxi-row {
+        flex-wrap: wrap;
+        
+    }
+    .taxi-types p {
+       
+        font-size: 12px;
+    }
+    .col-taxi {
+       margin: 2rem 0;
+        width: 100%;
+    }
+    
+}
